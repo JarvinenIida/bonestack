@@ -321,10 +321,12 @@ h1 {
 
 .painting-two {
     width: 95%;
+    max-height: 450px;
 }
 
 .painting-three {
     width: 95%;
+    max-height: 450px;
 }
 
 
