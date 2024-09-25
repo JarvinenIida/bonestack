@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bonestack Media</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+	<meta name="author" content="Iita">
+</head>
+<body>
+
+	<header class="header">
+		<nav>
+			<ul>
+				<li class="li"><a href="#wrapper-one-home">home</a></li>
+				<li class="lir"><a href="#wrapper-two-about">about</a></li>
+				<li class="li"><a href="#wrapper-three-slider">services</a></li>
+				<li class="li"><a href="#wrapper-four-contact">contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="exit-up">
+		<div id="wrapper-one-home">
+			<img class="image1 img-ani" src="images/bonestack-dog.png" alt="Dog picking at bonestack" class="sticker-one">
+			<h1 class="mobile-heading"><span>Bonestack</span> <br> <span class="large">Media</span></h1>
+			<h1 class="desktop-heading">Bonestack Media</h1>
+			<p>Fun and simplicity go hand in hand. Bonestack Media strips design back down to the bone, back to basics.</p>
+		</div>
+		<div id="wrapper-two-about" class="fullheight">
+			<img src="images/bonearm-dog.png" alt="Dog with bone arm waving" class="image2 sticker-two img-ani">
+			<div class="about-text-wrapper">
+				<h2>About</h2>
+				<p>I’m Iida from Bonestack Media. I'm a media assistant and IT educator passionate about learning full-stack web development, graphic design and illustration. My past involvement in small design projects as well as my time in media school has taught me that the best way to learn is by doing. I'm excited to help you manage every aspect of your website, from a seamless appearance to good functionality.</p>
+			</div>
+		</div>
+		</section>
+		<section id="wrapper-three-slider" class="js-wrapper-three-slider" aria-label="Services slider">
+		<div class="carousel" data-carousel>
+			<button class="carousel-button prev" data-carousel-button="prev">&#10092;</button>
+			<button class="carousel-button next" data-carousel-button="next">&#10093;</button>
+			<ul data-slides>
+				<li class="slide" data-active>
+					<div class="js-wrapper-webdev wrapper-webdev fullheight" id="one" aria-label="Graphic and web design">
+						<div class="item-container">
+							<h2 class="mobileh2">For you</h2>
+							<div class="height">
+								<img src="images/dog-screens.png" alt="Dog with floating mobile devices" class="image3 painting-one img-ani">
+							</div>
+							<h2 class="desktoph2">For you</h2>
+							<h3>graphic & web design</h3>
+							<p>Need a website, social media ad, or perhaps a completely new look for your business? Keep your brand fun, eye-catching and unanimous with simple yet imaginative design completed with care.</p>
+						</div>
+					</div>
+				</li>
+				<li class="slide">
+					<div class="js-wrapper-mgmt wrapper-mgmt fullheight" id="two" aria-label="Website management">
+						<div class="item-container">
+							<h2 class="mobileh2">For you</h2>
+							<div class="height">
+								<img src="images/dogpaw.png" alt="Dog paw on bone hand guiding computer mouse" class="image4 painting-two img-ani">
+							</div>
+							<h2 class="desktoph2">For you</h2>
+							<h3>website management</h3>
+							<p>Want to focus on what's important and leave the management of your website to us? We're happy to take care of all necessary maintenance of your site or help you get started with backend management yourself.</p>
+						</div>
+					</div> 
+				</li>
+				<li class="slide">
+					<div class="js-wrapper-illust wrapper-illust fullheight" id="three" aria-label="Illustration">
+						<div class="item-container">
+							<h2 class="mobileh2">For you</h2>
+							<div class="height">
+								<img src="images/paintbrush-dog.png" alt="Dog holding paint brush" class="image5 painting-three img-ani">
+							</div>
+							<h2 class="desktoph2">For you</h2>
+							<h3>illustration</h3>
+							<p>Add one of a kind content to your site with unique illustrations. Freshen up your restaurant menu with inviting food visuals or make information easier to follow with clean example drawings or infographics.</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+		<div id="wrapper-four-contact" class="fullheight">
+			<h2>Get in touch</h2>
+			<!--<form action="includes/formhandler.php" method="post">
+				<input id="name" type="text" name="name" aria-label="your email" placeholder="Email">
+				<textarea id="message" name="message" aria-label="message" placeholder="Message" rows="60" cols="30" wrap="hard"></textarea>
+		    </form>-->
+		    <div class="notice">
+		    	<p>Contact form coming soon. In the meantime, you can reach me at</p>
+		    	<p style="font-weight: bold;">info@bonestack.media</p>
+		    	<p>Looking forward to a chat!</p>
+		    </div>
+		    <div class="dog-box">
+				<img src="images/sleepy-dog.png" alt="Dog sleeping" class="image6 sticker-three img-ani">
+			</div>
+			<!--<button type="submit" class="submit-button">SUBMIT</button>-->
+		</div>
+	</main>
+
+	<footer>
+		<div class="handlecontainer">
+			<button class="settings" onclick="
+				toggleSettings()
+			"><img src="images/gear-solid.svg" alt="Settings button"></button>
+			<img src="images/footerhandle.png" class="handle">
+			
+		</div>
+		<div class="footer-wrapper" >
+			<div class="js-opacity">
+				<p class="toggle-heading">Language</p>
+				<button><a href="fi/index.html"><img src="images/fi.png" alt="in Finnish" class="lang"></a></button>
+				<button><a href="index.html"><img src="images/ca.png" alt="in English" class="lang"></a></button>
+			</div>
+			<div class="anim js-opacity2">
+				<p class="toggle-heading">Animations</p>
+				<button onclick="
+					toggleAnimations()
+				" class="toggle-animations on"></button>
+			</div>
+			<div class="js-opacity3 para">
+				<p>Iida Järvinen 2024</p>
+				<p>info@bonestack.media</p>
+			</div>
+		</div>
+	</footer>
+	<script src="js/slider.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/navigation.js"></script>
+	<script src="js/settings.js"></script>
+
+</body>
+</html>
