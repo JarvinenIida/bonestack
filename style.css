@@ -8,7 +8,7 @@ html {
         box-sizing: inherit;
     } 
 
-    /*scroll-snap-type: y mandatory;*/
+    scroll-snap-type: y mandatory;
 
     
 }
@@ -36,7 +36,7 @@ p {
 
 .fullheight {
     height: 100vh;
-    scroll-snap-align: end;
+   /* scroll-snap-align: end;*/
 }
 
 h1 {
@@ -142,7 +142,7 @@ header li {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    scroll-snap-align: center;
+    /*scroll-snap-align: center;*/
 }
 
 #wrapper-one-home img {
@@ -295,7 +295,7 @@ h1 {
 
 #wrapper-three-slider {
     height: 100vh;
-    scroll-snap-align: start;
+    scroll-snap-align: center;
 }
 
 #wrapper-three-slider p {
@@ -515,7 +515,7 @@ footer {
     font-size: 0.9rem;
     text-align: center;
     color: #706d64;
-    scroll-snap-align: end;
+    /*scroll-snap-align: end;*/
     z-index: 100;
 }
 
