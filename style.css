@@ -897,7 +897,7 @@ footer {
         max-width: 600px
     }
     .painting-one {
-        max-height: 500px;
+        max-height: 450px;
     }
 
 
@@ -1023,6 +1023,6 @@ footer {
     }
 
     .painting-one {
-        max-height: revert;
+        max-height: 550px;
     }
 }
