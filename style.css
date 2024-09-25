@@ -750,6 +750,10 @@ footer {
         font-size: 5rem;
     }
 
+    #wrapper-three-slider img {
+        max-width: 70%;
+    }
+
 }
 
 /* RESPONSIVE DESIGN FOR TABLET, 768 x 1024px */
