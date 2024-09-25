@@ -318,6 +318,9 @@ h1 {
         margin: auto;
         max-width: 400px;
     }
+.painting-one {
+    max-height: 450px;
+}
 
 .painting-two {
     width: 95%;
