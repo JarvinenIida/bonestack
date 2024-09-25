@@ -354,7 +354,7 @@ h1 {
     .height {
         display: flex;
         align-items: center;
-        height: 40vh;
+        max-height: 40vh;
     }
 
     .wrapper-mgmt {
