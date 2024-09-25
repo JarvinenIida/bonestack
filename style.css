@@ -318,18 +318,13 @@ h1 {
         margin: auto;
         max-width: 400px;
     }
-.painting-one {
-    max-height: 450px;
-}
 
 .painting-two {
     width: 95%;
-    max-height: 450px;
 }
 
 .painting-three {
     width: 95%;
-    max-height: 450px;
 }
 
 
@@ -359,7 +354,7 @@ h1 {
     .height {
         display: flex;
         align-items: center;
-        max-height: 40vh;
+        height: 40vh;
     }
 
     .wrapper-mgmt {
