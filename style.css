@@ -308,9 +308,9 @@ h1 {
 }
 
 #wrapper-three-slider img {
-        margin: auto;
-        max-width: 95%;
-    }
+    margin: auto;
+    width: 95%;
+}
 
 
 
@@ -710,9 +710,6 @@ footer {
     }
 
 
-    /*.submit-button img {
-       width: 130px;
-    }*/
     .submit-button {
        font-size: 0.9rem; 
     }
@@ -789,9 +786,7 @@ footer {
         bottom: -40px;
     }
 
-    /*.submit-button img {
-       width: 150px;
-    }*/
+
 }
 
 
@@ -978,9 +973,6 @@ footer {
         transition: all 0.5s ease;
     }
 
-   /* .submit-button img {
-       width: 170px;
-    }*/
 
 }
 
@@ -994,9 +986,6 @@ footer {
         filter: drop-shadow(10px 5px 4px #0a0a0a);
     }
 
-    /*.submit-button img {
-       width: 170px;
-    }*/
 
     .item-container {
         max-width: 1200px;
