@@ -39,6 +39,10 @@ p {
    /* scroll-snap-align: end;*/
 }
 
+#exit-up {
+        background-color: #151515;
+}
+
 h1 {
     font-family: "Ahsing-regular";
     color: #C9C5B5;
