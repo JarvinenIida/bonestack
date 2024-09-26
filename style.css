@@ -309,7 +309,7 @@ h1 {
 
 #wrapper-three-slider img {
     margin: auto;
-    width: 95%;
+    max-width: 95%;
 }
 
 
