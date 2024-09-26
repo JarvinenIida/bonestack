@@ -319,15 +319,6 @@ h1 {
         max-width: 95%;
     }
 
-.painting-two {
-    width: 95%;
-    max-height: 450px;
-}
-
-.painting-three {
-    width: 95%;
-    max-height: 450px;
-}
 
 
 
@@ -750,9 +741,6 @@ footer {
         font-size: 5rem;
     }
 
-    #wrapper-three-slider img {
-        max-width: 70%;
-    }
 
 }
 
@@ -897,13 +885,6 @@ footer {
         height: revert;
         display: grid;
         grid-area: sliderimg;
-    }
-
-    #wrapper-three-slider img {
-        max-width: 600px
-    }
-    .painting-one {
-        max-height: 450px;
     }
 
 
