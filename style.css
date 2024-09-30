@@ -1016,3 +1016,21 @@ footer {
         left: 6rem;
     }
 }
+
+@media only screen and (min-width: 1430px) {
+
+        .carousel-button {
+                width: 40px;
+                height: 40px;
+        }
+        
+        .carousel-button.next {
+                right: 40rem;
+            }
+        
+        .carousel-button.prev {
+                left: 40rem;
+            }
+        
+}
+
