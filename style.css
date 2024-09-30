@@ -337,7 +337,7 @@ h1 {
         height: 100vh;
         max-height: 650px;
         display: grid;
-        grid-template-rows: 6fr 21fr 2fr 9fr;
+        grid-template-rows: 6fr 17fr 2fr 9fr;
         justify-items: center;
         align-items: center;
         padding: 50px 25px;
@@ -647,6 +647,9 @@ footer {
     }
 
     /* Slider */
+        .item-container {
+        grid-template-rows: 6fr 19fr 2fr 9fr;
+        }
 
     #wrapper-three-slider p {
         font-size: 0.9rem;
