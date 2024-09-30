@@ -1002,4 +1002,17 @@ footer {
     .painting-one {
         max-height: 550px;
     }
+
+.carousel-button {
+        width: 25px;
+        height: 25px;
+}
+
+    .carousel-button.next {
+        right: 6rem;
+    }
+
+.carousel-button.prev {
+        left: 6rem;
+    }
 }
