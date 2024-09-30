@@ -314,6 +314,7 @@ h1 {
 #wrapper-three-slider img {
     margin: auto;
     max-width: 95%;
+        max-height: 100%;
 }
 
 
