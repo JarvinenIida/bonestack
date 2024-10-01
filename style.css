@@ -884,6 +884,10 @@ footer {
     }
 
 
+        #wrapper-three-slider img {
+            max-height: 55vh;
+        }
+
 
     #wrapper-three-slider h2 {
         grid-area: sliderh2;
@@ -958,6 +962,10 @@ footer {
     .item-container {
         max-width: 1100px;
     }
+
+         #wrapper-three-slider img {
+            max-height: 45vh;
+        }
 
 
      /* Contact */
